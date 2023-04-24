@@ -554,9 +554,9 @@ hr {
 .has-parallax-feed :is(.gh-card-title, .gh-card-meta) {
     color: #fff;
 }
-
+/* Change the below from 3.2rem, 2.4rem + 2.5vw, 6.4rem*/
 .has-parallax-feed .gh-card-title {
-    font-size: clamp(3.2rem, 2.4rem + 2.5vw, 6.4rem);
+    font-size: clamp(1.2rem, 1.4rem + 1.5vw, 1.4rem); 
     line-height: 1.1;
 }
 
